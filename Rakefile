@@ -1,21 +1,10 @@
 # Add your own tasks in files placed in lib/tasks ending in .rake,
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
-# require_relative "config/application"
-
-# Rails.application.load_tasks
-
-
-# frozen_string_literal: true
-
-require_relative 'config/application'
+require_relative "config/application"
+require 'sprockets/rake'
 
 Rails.application.load_tasks
 
-task :deploy do
-  puts 'Deploying...'
-  Rake::Task['assets:precompile'].invoke
-  Rake::Task['assets:clobber'].invoke
-end
 
-require 'sprockets/rake'
+
