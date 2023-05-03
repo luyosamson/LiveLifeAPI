@@ -56,6 +56,9 @@ gem "pg_search"
 gem "sendgrid-ruby"
 gem 'rest-client', '~> 2.0'
 
+gem 'zeitwerk', '2.5.0'
+
+
 group :assets do
   gem 'rails-assets-tether', source: 'https://rails-assets.org'
 end
