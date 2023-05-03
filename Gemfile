@@ -55,3 +55,7 @@ gem "byebug", "~> 11.1"
 gem "pg_search"
 gem "sendgrid-ruby"
 gem 'rest-client', '~> 2.0'
+
+group :assets do
+  gem 'rails-assets-tether', source: 'https://rails-assets.org'
+end

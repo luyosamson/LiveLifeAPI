@@ -17,3 +17,5 @@ task :deploy do
   Rake::Task['assets:precompile'].invoke
   Rake::Task['assets:clobber'].invoke
 end
+
+require 'sprockets/rake'
