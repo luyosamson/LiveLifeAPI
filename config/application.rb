@@ -18,13 +18,13 @@ require "action_cable/engine"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-config.assets.enabled = true
+
 
 
 module NewlifeBackend
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 7.0
+    # config.load_defaults 7.0
 
     config.before_configuration do
       env_file = File.join(Rails.root, "config", "local_env.yml")
