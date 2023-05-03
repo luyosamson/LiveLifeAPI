@@ -225,7 +225,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.6)
+    zeitwerk (2.5.0)
 
 PLATFORMS
   ruby
@@ -250,6 +250,7 @@ DEPENDENCIES
   ruby-lsp (~> 0.3.7)
   sendgrid-ruby
   tzinfo-data
+  zeitwerk (= 2.5.0)
 
 RUBY VERSION
    ruby 2.7.4p191
