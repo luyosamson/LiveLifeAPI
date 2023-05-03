@@ -58,6 +58,8 @@ gem 'rest-client', '~> 2.0'
 
 gem 'zeitwerk', '2.5.0'
 
+gem 'sprockets-rails', '~> 3.2'
+
 
 group :assets do
   gem 'rails-assets-tether', source: 'https://rails-assets.org'
