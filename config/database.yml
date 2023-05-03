@@ -81,6 +81,8 @@ test:
 #
 production:
   <<: *default
-  database: newlife_backend_production
-  username: newlife_backend
-  password: <%= ENV["NEWLIFE_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  # <<: *default
+  # database: newlife_backend_production
+  # username: newlife_backend
+  # password: <%= ENV["NEWLIFE_BACKEND_DATABASE_PASSWORD"] %>
