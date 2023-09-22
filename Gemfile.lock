@@ -214,13 +214,6 @@ GEM
       ruby_http_client (~> 3.4)
     sorbet-runtime (0.5.10626)
     spring (4.1.1)
-    sprockets (4.2.0)
-      concurrent-ruby (~> 1.0)
-      rack (>= 2.2.4, < 4)
-    sprockets-rails (3.4.2)
-      actionpack (>= 5.2)
-      activesupport (>= 5.2)
-      sprockets (>= 3.0.0)
     syntax_tree (5.2.0)
       prettier_print (>= 1.2.0)
     thor (1.2.1)
@@ -258,7 +251,6 @@ DEPENDENCIES
   ruby-lsp (~> 0.3.7)
   sendgrid-ruby
   spring
-  sprockets-rails (~> 3.2)
   tzinfo-data
   zeitwerk (= 2.5.0)
 
