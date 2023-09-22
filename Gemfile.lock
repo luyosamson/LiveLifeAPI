@@ -213,6 +213,7 @@ GEM
     sendgrid-ruby (6.6.2)
       ruby_http_client (~> 3.4)
     sorbet-runtime (0.5.10626)
+    spring (4.1.1)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -256,6 +257,7 @@ DEPENDENCIES
   rspec-rails (~> 6.0.1)
   ruby-lsp (~> 0.3.7)
   sendgrid-ruby
+  spring
   sprockets-rails (~> 3.2)
   tzinfo-data
   zeitwerk (= 2.5.0)
