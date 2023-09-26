@@ -84,13 +84,13 @@ default: &default
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
-
-
-#  production:
+# production:
 #   <<: *default
-#   database: newlife_backend_production
-#   username: newlife_backend
-#   password: <%= ENV["NEWLIFE_BACKEND_DATABASE_PASSWORD"] %>
+#   url: <%= ENV['DATABASE_URL'] %>
+
+
+ production:
+  <<: *default
+  database: newlifehospital_x7dn
+  username: newlifehospital_x7dn_user
+  password: <%= ENV["NEWLIFE_BACKEND_DATABASE_PASSWORD"] %>
