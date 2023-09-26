@@ -91,6 +91,6 @@ default: &default
 
  production:
   <<: *default
-  database: newlifehospital_x7dn
+  database: newlifehospital
   username: newlifehospital_x7dn_user
   password: <%= ENV["NEWLIFE_BACKEND_DATABASE_PASSWORD"] %>
