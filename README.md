@@ -577,9 +577,3 @@ Response:
 ]
 ```
 
-<!-- {
-  "username": "Luyoh",
-  "password": "Luyoh1980",
-  "password_confirmation": "Luyoh1980",
-  "email": "luyosamson@gmail.com"
-} -->
