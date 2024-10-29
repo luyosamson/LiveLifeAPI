@@ -25,13 +25,14 @@ default: &default
   # host: localhost
 
 
-# development:
-#   <<: *default
-#   database: newlife_backend_development
-#   username: newlife_backend
-#   password: pass1234
-#   host: localhost # or your PostgreSQL server host if it's not on your local machine
-#   port: 5432 # default PostgreSQL port
+development:
+  <<: *default
+  database: livelife_development
+  username: newlife_backend
+  password: pass1234
+  host: localhost # or your PostgreSQL server host if it's not on your local machine
+  port: 5432 
+  # default PostgreSQL port
   
 
   # The specified database role being used to connect to postgres.
